@@ -87,3 +87,20 @@ body{
    .brif{
        font-size: 19px;
    }
+   /* third article styles */
+   .start{
+       text-align: center;
+       margin-top: 60px;
+   }
+   .installation{
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+   }
+   .step img{
+       width: 380px;
+       margin-bottom: 7px;
+   }
+.step h2{
+    margin-bottom: 13px;
+}
