@@ -113,14 +113,30 @@ body{
         background-color: rgb(167, 253, 186);
     }
     /* fifth section styles */
-    .employer{
-        margin: auto;
+    .employer-about{
+        text-align: center;
+    }
+    .employer-about h1{
+        font-size: 2.4em;
+        font-weight: 900;
+        margin-bottom: 16px;
+        margin-top: 90px;
+    }
+    .employer-about p{
+        font-size: 1.4em;
+        margin-bottom: 60px;
     }
     .all-designation{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
+        grid-row-gap: 3em;
+        grid-column-gap: 3em;
+        grid-template-columns: 565px 565px;
+        justify-content: center;        
     }
     .media img{
-        width: 500px;
+        width: 565px;
+    }
+    .details p{
+        font-size: 1.2em;
+        font-weight: 00;
     }
